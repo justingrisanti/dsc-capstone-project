@@ -113,7 +113,7 @@ Thank you for inputting your playlist. Please see playlist tracks below:
 
 ![Image5](https://raw.githubusercontent.com/justingrisanti/dsc-capstone-project/main/Visualizations/playlistsnapshot765.png)
 
-Here are 5 tracks that might fit this playlist:
+Here are 10 tracks that might fit this playlist:
 
 ![Image6](https://raw.githubusercontent.com/justingrisanti/dsc-capstone-project/main/Visualizations/recommendations765.png)
 
