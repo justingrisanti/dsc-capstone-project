@@ -28,32 +28,32 @@ The main purpose of this recommendation system is inferential, meaning that this
 
 We are sourcing our data using the Spotify Million Playlist Dataset, with the following metrics
 
-Number of playlists: *1,000,000*
-Number of tracks: *66,346,428*
-Number of unique tracks: *2,262,292*
-Number of unique albums: *734,684*
-Number of unique artists: *295,860*
-Number of unique titles: *92,944*
+* Number of playlists: *1,000,000*
+* Number of tracks: *66,346,428*
+* Number of unique tracks: *2,262,292*
+* Number of unique albums: *734,684*
+* Number of unique artists: *295,860*
+* Number of unique titles: *92,944*
 
 Our raw playlist data has the following features:
 
 >**Playlist Attributes**
->Playlist Name
->Playlist Type
->Number of Tracks
->Number of Unique Albums
->Number of Followers
->Number of Edits
->Duration in Milliseconds
->Number of Artists
+> * Playlist Name
+> * Playlist Type
+> * Number of Tracks
+> * Number of Unique Albums
+> * Number of Followers
+> * Number of Edits
+> * Duration in Milliseconds
+> * Number of Artists
 >**Song Attributes**
->Artist Name
->Track URI
->Artist URI
->Track Name
->Album URI
->Duration in Milliseconds
->Album Name
+> * Artist Name
+> * Track URI
+> * Artist URI
+> * Track Name
+> * Album URI
+> * Duration in Milliseconds
+> * Album Name
 
 As we see in the summary above, there are 1 million playlists with over 66 million songs. Within these playlists, there are 2.2 million unique songs, 734k unique albums, and 300k unique artists. There is a lot of data to work with here. The playlists are sorted into categories, with country and chill being the top, followed by rap and workout. Drake, Kanye West, and Kendrick Lamar are the 3 top artists. The next step in this process is to convert all of this json data to be compatible with python.
 
